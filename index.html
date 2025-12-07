@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Irakoze's Portfolio</title>
+</head>
+<body>
+  <video autoplay muted loop id="background-video">
+  <source src="https://videos.pexels.com/video-files/3571899/3571899-sd_640_360_25fps.mp4" type="video/mp4">
+</video>
+
+<!-- NAVIGATION -->
+<nav class="navbar">
+  <div class="nav-container">
+    <div class="nav-logo">✨ IRAKOZE ✨</div>
+    <ul class="nav-menu">
+      <li class="nav-item"><a href="#home" class="nav-link">Home</a></li>
+      <li class="nav-item"><a href="#about" class="nav-link">About</a></li>
+      <li class="nav-item"><a href="#hobbies" class="nav-link"> Hobbies</a></li>
+      <li class="nav-item"><a href="#subjects" class="nav-link">Subjects</a></li>
+      <li class="nav-item"><a href="#projects" class="nav-link">Projects</a></li>
+      <li class="nav-item"><a href="#skills" class="nav-link"> Skills</a></li>
+      <li class="nav-item"><a href="#websites" class="nav-link">🌍Websites</a></li>
+      <li class="nav-item"><a href="#contact" class="nav-link">📞 Contact</a></li>
+    </ul>
+    <div class="search-container">
+      <input type="text" class="search-bar" placeholder="Search... 🔍" id="searchInput">
+      <button class="search-btn" id="searchBtn">🔍</button>
+    </div>
+  </div>
+</nav>
+
+<!-- HEADER -->
+<header>
+  <img src="https://i.postimg.cc/pr3NPwkT/web-developer.jpg" alt="Irakoze">
+  <h1>🚀 IRAKOZE</h1>
+  <p>💻 Web Developer & Student</p>
+</header>
+
+<!-- HOME PAGE -->
+<section id="home" class="page">
+  <h2>👋 Welcome to My Portfolio</h2>
+  <p>Hi! I'm IRAKOZE, a Web Developer & Student passionate about STEM and web development.</p>
+  <h3>Quick Overview 📌</h3>
+  <div class="grid">
+    <div class="card">
+      <h3>👤 About Me</h3>
+      <p>Learn more about who I am</p>
+      <button onclick="showPage('about')">View More ➜</button>
+    </div>
+    <div class="card">
+      <h3>💡 My Projects</h3>
+      <p>Check out my STEM projects</p>
+      <button onclick="showPage('projects')">View More ➜</button>
+    </div>
+    <div class="card">
+      <h3>⚙️ My Skills</h3>
+      <p>Explore my technical skills</p>
+      <button onclick="showPage('skills')">View More ➜</button>
+    </div>
+  </div>
+</section>
+  
+
+<!-- ABOUT PAGE -->
+<section id="about" class="page">
+  <h2>👤 About Me</h2>
+  <p>My name is IRAKOZE and I am a student learning web development.</p>
+  <p>My favorite subjects are: Science 🔬, Mathematics ➗, and English 📘</p>
+</section>
+
+<!-- HOBBIES PAGE -->
+<section id="hobbies" class="page">
+  <h2>🎯 My Hobbies</h2>
+  <div class="grid">
+    <div class="card">
+      <h3>💻 Making Websites</h3>
+      <p>I love creating and designing websites</p>
+    </div>
+    <div class="card">
+      <h3>📚 Learning New Things</h3>
+      <p>I enjoy discovering new skills and knowledge</p>
+    </div>
+    <div class="card">
+      <h3>🏊 Swimming</h3>
+      <p>Swimming is my favorite sport</p>
+    </div>
+  </div>
+</section>
+
+<!-- SUBJECTS PAGE -->
+<section id="subjects" class="page">
+  <h2>📘 My Favorite Subjects</h2>
+  <div class="grid">
+    <div class="card">
+      <h3>🔭 STEM</h3>
+      <p>Science, Technology, Engineering, Math</p>
+    </div>
+    <div class="card">
+      <h3>🔬 Science</h3>
+      <p>I love science because it helps me understand the world</p>
+    </div>
+    <div class="card">
+      <h3>➗ Mathematics</h3>
+      <p>I love mathematics for problem solving</p>
+    </div>
+  </div>
+</section>
+
+<!-- PROJECTS PAGE -->
+<section id="projects" class="page">
+  <h2>💡 My STEM Projects</h2>
+  <div class="grid">
+    <div class="card">
+      <h3>🌐 Building My First Website</h3>
+      <p>HTML project where I learnt structure</p>
+      <a href="https://codepen.io/Irakoze-Dieudonne/pen/wBGMvQe" target="_blank"><button>View Project 🔗</button></a>
+    </div>
+    <div class="card">
+      <h3>🎨 CSS Styling Mastery</h3>
+      <p>CSS project where I learnt styling</p>
+      <a href="https://codepen.io/Irakoze-Dieudonne/pen/NPNxWEa" target="_blank"><button>View Project 🔗</button></a>
+    </div>
+    <div class="card">
+      <h3>⚡ JavaScript Interactivity</h3>
+      <p>JavaScript project for interactivity</p>
+      <a href="https://codepen.io/Irakoze-Dieudonne/pen/LENGVzQ" target="_blank"><button>View Project 🔗</button></a>
+    </div>
+  </div>
+</section>
+
+<!-- SKILLS PAGE -->
+<section id="skills" class="page">
+  <h2>⚙️ My Skills</h2>
+  <div class="grid">
+    <div class="card">
+      <h3>💻 HTML</h3>
+      <div class="skill-bar"><div class="skill-progress" style="width: 80%;"></div></div>
+      <p>80%</p>
+    </div>
+    <div class="card">
+      <h3>🎨 CSS</h3>
+      <div class="skill-bar"><div class="skill-progress" style="width: 85%;"></div></div>
+      <p>85%</p>
+    </div>
+    <div class="card">
+      <h3>⚡ JavaScript</h3>
+      <div class="skill-bar"><div class="skill-progress" style="width: 75%;"></div></div>
+      <p>75%</p>
+    </div>
+    <div class="card">
+      <h3>🧠 Problem Solving</h3>
+      <div class="skill-bar"><div class="skill-progress" style="width: 80%;"></div></div>
+      <p>80%</p>
+    </div>
+    <div class="card">
+      <h3>🔭 STEM Knowledge</h3>
+      <div class="skill-bar"><div class="skill-progress" style="width: 80%;"></div></div>
+      <p>80%</p>
+    </div>
+    <div class="card">
+      <h3>🎨 Web Design</h3>
+      <div class="skill-bar"><div class="skill-progress" style="width: 85%;"></div></div>
+      <p>85%</p>
+    </div>
+  </div>
+</section>
+
+<!-- WEBSITES PAGE -->
+<section id="websites" class="page">
+  <h2>🌍 My Favorite Websites</h2>
+  <div class="grid">
+    <a href="https://www.google.com" target="_blank">
+      <div class="card"><h3>🔎 Google</h3><p>Search engine</p></div>
+    </a>
+    <a href="https://www.duckduckgo.com" target="_blank">
+      <div class="card"><h3>🦆 DuckDuckGo</h3><p>Privacy search engine</p></div>
+    </a>
+    <a href="https://www.wikipedia.org" target="_blank">
+      <div class="card"><h3>📚 Wikipedia</h3><p>Free encyclopedia</p></div>
+    </a>
+  </div>
+</section>
+
+<!-- CONTACT PAGE -->
+<section id="contact" class="page">
+  <h2>📞 Contact Me</h2>
+  <div class="grid">
+    <div class="card"><h3>📧 Email</h3><p>irakoze@example.com</p></div>
+    <div class="card"><h3>💻 GitHub</h3><p>github.com/irakoze</p></div>
+    <div class="card"><h3>🧪 CodePen</h3><p>codepen.io/Irakoze-Dieudonne</p></div>
+  </div>
+</section>
+
+<footer>
+  <div class="footer-container">
+    <div class="footer-content">
+      <p>&copy; 2025 Irakoze's Portfolio. All rights reserved. ✨</p>
+      <p>Built with HTML5, CSS3, and JavaScript 💻</p>
+    </div>
+    <div class="footer-links">
+      <a href="#home">🏠 Home</a>
+      <a href="#about">👤 About</a>
+      <a href="#projects">💡 Projects</a>
+      <a href="#contact">📞 Contact</a>
+    </div>
+    <div class="footer-social">
+      <p>Follow Me:</p>
+      <a href="https://github.com/irakoze" target="_blank">💻 GitHub</a>
+      <a href="https://codepen.io/Irakoze-Dieudonne" target="_blank">🧪 CodePen</a>
+    </div>
+  </div>
+</footer>
+</body>
+</html>
